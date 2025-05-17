@@ -10,7 +10,10 @@ function App() {
   const addvalue = () => {
     //console.log("Value added,",counter);
     if (counter < 20) {
-      setCounter(counter+ 1);
+      setCounter(prevcounter => prevcounter + 1);
+      setCounter(prevcounter => prevcounter + 1);
+      setCounter(prevcounter => prevcounter + 1);
+      setCounter(prevcounter => prevcounter + 1);
     }
     
   }
